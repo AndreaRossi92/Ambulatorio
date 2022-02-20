@@ -1,0 +1,35 @@
+body {
+	text-align: center;
+}
+
+form{
+	display: inline-block;
+	text-align: center;
+}
+
+form label {
+  width:200px;
+  clear:left;
+  text-align:right;
+  padding-right:10px;
+}
+
+form input, form label {
+  float:left;
+  margin:2px;
+}
+
+form input[type="submit"] {
+  display: inline-block;
+  clear: left;
+  margin-left: 135px;
+}
+
+form input[name="codFiscale"] {
+  text-transform: uppercase;
+}
+
+form input[type="button"] {
+  margin-left: 85px;
+  clear: left;
+}

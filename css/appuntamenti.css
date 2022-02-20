@@ -1,0 +1,29 @@
+#container {
+  margin: auto;
+  min-width: 1200px;
+}
+
+#data, #esami {
+  margin: 50px;
+}
+
+#data {
+  float:left;
+}
+
+#esami {
+  float:right;
+}
+
+#esami {
+  width: 250px;
+}
+
+#data {
+  width: 200px;
+}
+
+#esami label {
+  width: 200px;
+  margin-left: 20px;
+}

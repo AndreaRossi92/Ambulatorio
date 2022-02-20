@@ -1,0 +1,111 @@
+.ui-datepicker {
+  width: 312px;
+  height: 312px;
+  margin: 5px;
+}
+
+.ui-datepicker table {
+  width: 100%;
+  border: 1px solid black;
+  background: white;
+}
+
+.ui-datepicker-header {
+  background: #00b36b;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  height: 40px;
+}
+
+.ui-datepicker-title {
+  text-align: center;
+  margin: 5px;
+}
+
+.ui-datepicker-prev {
+  float: left;
+  cursor: pointer;
+  margin-left: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.ui-datepicker-next {
+  float: right;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.ui-datepicker-prev span{
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url("../img/caret-left-fill.svg") no-repeat;
+  background-position: center;
+}
+
+.ui-datepicker-next span{
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url("../img/caret-right-fill.svg") no-repeat;
+  background-position: center;
+}
+
+.ui-datepicker-next:hover, .ui-datepicker-prev:hover {
+  background: #00e68a;
+}
+
+.ui-datepicker-next:hover span{
+  background: url("../img/caret-right-fill-black.svg") no-repeat;
+  background-position: center;
+}
+
+.ui-datepicker-prev:hover span{
+  background: url("../img/caret-left-fill-black.svg") no-repeat;
+  background-position: center;
+}
+
+.ui-datepicker th span{
+  display: inline-block;
+  width: 40px;
+}
+
+.ui-datepicker a {
+  text-decoration: none;
+}
+
+.ui-datepicker td span, .ui-datepicker td a {
+  display: inline-block;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.ui-datepicker td span {
+  background: #999999;
+  color: white;
+}
+
+.ui-datepicker td:not(.ui-state-highlight) a{
+  background: #00b36b;
+  color: white;
+}
+
+.ui-datepicker td:not(.ui-state-highlight) a:hover {
+  background: #00e68a;
+  color: black;
+}
+
+.ui-state-highlight a{
+  background: #006666;
+  color: white;
+}
+
+.ui-state-highlight a:hover{
+  background: #00cccc;
+  color: black;
+}

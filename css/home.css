@@ -1,0 +1,55 @@
+body {
+	text-align: center;
+}
+
+#container {
+	width: 700px;
+	height: 500px;
+	margin: auto;
+}
+
+#container div {
+	width: 300px;
+	height: 100px;
+}
+
+#container a {
+	display: inline-block;
+	width: 200px;
+	height: 60px;
+	background-color: #00b36b;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+	font: 400 13.3333px Arial;
+	font-weight: bold;
+	line-height: 30px
+}
+
+#container a:hover {
+  background: #00e68a;
+  color :black;
+  fill: black;
+}
+
+#container div:nth-child(even) {
+	float: right;
+}
+
+#container div:nth-child(odd) {
+	float: left;
+}
+
+a p {
+	display:inline-block;
+}
+
+.button img {
+	width: 40px;
+	height: 40px;
+	margin-right: 15px;
+	vertical-align: middle;
+}

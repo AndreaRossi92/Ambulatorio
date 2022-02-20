@@ -1,0 +1,29 @@
+body {
+	text-align: center;
+}
+
+#presentazione {
+	display: inline-block;
+	position: relative;
+	width: 700px;
+}
+
+#presentazione img {
+	width: 700px;
+}
+
+#presentazione div {
+	position: absolute;
+	padding: 5px;
+	height: 40px;
+	top: 0px;
+	left: 235px;
+	color: black;
+	font-family: georgia;
+	background: rgba(255, 255, 255, .6);
+	line-height: 10px;
+}
+
+h3 {
+	margin: 15px;
+}

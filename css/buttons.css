@@ -1,0 +1,49 @@
+input[type="checkbox"], input[type="radio"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked+label, input[type="radio"]:checked+label {
+  background: #00e68a;
+  color:black;
+  border: 3px solid #00b36b;
+}
+
+input[type="checkbox"]+label, input[type="radio"]+label {
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+  background: #00b36b;
+  border: 3px solid white;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 0px;
+}
+
+input[type="checkbox"]+label:hover, input[type="radio"]+label:hover, input[type="submit"]:hover, input[type="button"]:hover {
+  background: #00e68a;
+  color:black;
+}
+
+input[type="submit"], input[type="button"] {
+  display: inline-block;
+  background-image: linear-gradient(#00b36b, #00e68a);
+  color: white;
+  cursor: pointer;
+  margin-top: 30px;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+}
+
+input[name="elimina"] {
+  width: 200px;
+  background-image: linear-gradient(#ff3300, #ff704d);
+}
+
+input[name="elimina"]:hover {
+  background: #ff8c1a;
+  color:black;
+}

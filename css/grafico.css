@@ -1,0 +1,87 @@
+#container {
+  display: inline-block;
+  width: 1500px;
+}
+
+#dati > div{
+  width: 600px;
+  height: 300px;
+  margin: 0px 70px 20px 70px;
+}
+
+#dati > div:nth-child(odd){
+  float: left;
+}
+
+#dati > div:nth-child(even){
+  float: right;
+}
+
+#esami, #date {
+  width: 300px;
+  float: left;
+}
+
+#selezione {
+  width: 100%;
+  height: 300px;
+}
+
+#selezione p {
+  text-align: left;
+}
+
+#selezione > div {
+  margin: 20px;
+}
+
+#date input, #date label {
+  display: block;
+}
+
+#container table div {
+  height: 30px;
+}
+
+#dati div > p {
+  text-align: center;
+}
+
+#container table {
+  border: none;
+}
+
+#container td, #container th {
+  padding-right: 20px;
+}
+
+#container tbody tr td:nth-child(n+3), #container tr th:nth-child(n+3){
+  text-align: center;
+}
+
+#container thead th:nth-child(2) {
+  width: 220px;
+}
+
+#container tr td:nth-child(1), #container tr th:nth-child(1){
+  width: 120px;
+  text-align: right;
+}
+
+#container tfoot td:nth-child(1) {
+  font-weight: bold;
+  text-align: right;
+}
+
+#container tfoot td:nth-child(2) {
+  font-weight: bold;
+  text-align: center;
+}
+
+#esami input[type="checkbox"]+label {
+  width: 200px;
+} 
+
+h3 {
+  margin: 20px;
+}
